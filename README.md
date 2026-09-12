@@ -1,7 +1,33 @@
 # Lumen
 
+![Lumen Architecture](assets/architecture.png)
 A simple healthcare backend built with Django, Django REST Framework,
 PostgreSQL and JWT authentication.
+
+
+## Architecture Diagram
+
+                    ┌─────────────────┐
+                    │     Client      │
+                    │    / Postman    │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   Django REST   │
+                    │      API        │
+                    └────────┬────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+        ┌──────────┐   ┌───────────┐  ┌─────────────┐
+        │ Accounts │   │ Healthcare│  │ JWT Auth    │
+        └──────────┘   └───────────┘  └─────────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   PostgreSQL    │
+                    └─────────────────┘
 
 ## What it does
 
