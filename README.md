@@ -52,6 +52,8 @@ lumen/
 │   ├── serializers.py
 │   ├── urls.py
 │   └── views.py
+├──assests/
+|  ├── architecture.png
 ├── healthcare/
 │   ├── migrations/
 │   ├── admin.py
