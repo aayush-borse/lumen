@@ -53,7 +53,7 @@ lumen/
 │   ├── urls.py
 │   └── views.py
 ├──assests/
-|  ├── architecture.png
+|  └── architecture.png
 ├── healthcare/
 │   ├── migrations/
 │   ├── admin.py
